@@ -27,7 +27,9 @@ def query(name, id_card, jb):
     }
     score_query_headers = {
         'Referer': 'http://www.chsi.com.cn/cet/',
-        'Cookie': 'JSESSIONID=585FDCDE6A256DF086B6320056528E38; aliyungf_tc=AQAAAODGXH0+uwMA/SHfDvzrwCJnctoY; acw_tc=AQAAAHkk0kv4ygMA/SHfDt/AnSyLDeqq'
+        'Cookie': 'JSESSIONID=585FDCDE6A256DF086B6320056528E38; '
+                  'aliyungf_tc=AQAAAODGXH0+uwMA/SHfDvzrwCJnctoY; '
+                  'acw_tc=AQAAAHkk0kv4ygMA/SHfDt/AnSyLDeqq'
     }
     score_query = requests.get(
         url=score_url,
